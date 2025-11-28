@@ -1,0 +1,76 @@
+ /* MAIN */
+ 
+ .hero-box {
+    background: linear-gradient(90deg, #1E88E5, #64B5F6);
+    padding: 40px 0;
+    color: white;
+}
+
+.hero-box h1, 
+.hero-box p {
+    margin: 0;
+    padding: 5px;
+}
+
+    main { display: none; }
+
+    header { background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+    .navbar-brand { font-weight: 600; color: #1E88E5 !important; }
+    .nav-link { color: #424242 !important; font-weight: 500; cursor: pointer; }
+    .nav-link:hover, .nav-link.active { color: #1E88E5 !important; }
+
+    .hero {
+      background: linear-gradient(90deg, #1E88E5, #64B5F6);
+      color: white; padding: 80px 0; text-align: center;
+    }
+    .hero h1 { font-weight: 700; font-size: 48px; }
+
+    .courses { padding: 60px 0; }
+    .card {
+      border-radius: 15px; overflow: hidden;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+      transition: transform 0.2s;
+    }
+    .card:hover { transform: translateY(-5px); }
+    .badge-level { background: #1E88E5; color: #fff; font-size: 12px; padding: 5px 10px; border-radius: 20px; }
+    .btn-add { background-color: #1E88E5; color: white; border-radius: 10px; width: 100%; margin-top: 10px; }
+
+    /* MIS CURSOS */
+    .dashboard, .cart { padding: 60px 0; display: none; }
+    .stat-box {
+      background: #fff; border-radius: 15px; text-align: center;
+      padding: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .stat-box h4 { color: #1E88E5; font-weight: 700; }
+    .course-progress {
+      background: #fff; padding: 20px; border-radius: 15px;
+      margin-top: 40px; box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    }
+    .btn-learn {
+      background-color: #1E88E5; color: white; border: none;
+      border-radius: 10px; padding: 8px 15px;
+    }
+
+    /* CARRITO */
+    .cart-icon { font-size: 60px; color: #1E88E5; margin-bottom: 20px; }
+    .btn-explore {
+      background-color: #1E88E5; color: white;
+      border-radius: 10px; padding: 10px 25px;
+    }
+
+    footer {
+  background-color: #fff;
+  text-align: center !important;   /* Fuerza el centrado */
+  width: 100%;
+  padding: 20px;
+  color: #616161;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;   /* Centra horizontal */
+  align-items: center;       /* Centra vertical */
+  margin-top: 60px;
+}
+.nav-link {
+    cursor: pointer !important;
+}
+
